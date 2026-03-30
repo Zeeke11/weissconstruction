@@ -121,11 +121,11 @@ const Contact = () => {
           <div className="space-y-12">
             <div>
               <p className="font-mono text-xs uppercase tracking-widest opacity-40 mb-4 ">Direct Line [Tap to Call]</p>
-              <a href="tel:5550192026" className="group flex items-center gap-6 hover:text-[#E63B2E] transition-colors cursor-pointer w-fit">
+              <a href="tel:2175567355" className="group flex items-center gap-6 hover:text-[#E63B2E] transition-colors cursor-pointer w-fit">
                 <div className="w-16 h-16 rounded-full border border-white/20 flex items-center justify-center group-hover:border-[#E63B2E] group-hover:bg-[#E63B2E]/10 transition-all">
                   <Phone className="w-6 h-6" />
                 </div>
-                <span className="text-3xl md:text-4xl font-bold tracking-tighter">(555) 019-2026</span>
+                <span className="text-3xl md:text-4xl font-bold tracking-tighter">217-556-7355</span>
               </a>
             </div>
 
