@@ -131,11 +131,11 @@ const Contact = () => {
 
             <div>
               <p className="font-mono text-xs uppercase tracking-widest opacity-40 mb-4">Email Matrix</p>
-              <a href="mailto:info@weissconstruction.com" className="group flex items-center gap-6 hover:text-[#E63B2E] transition-colors cursor-pointer w-fit">
+              <a href="mailto:mweissconstruction@gmail.com" className="group flex items-center gap-6 hover:text-[#E63B2E] transition-colors cursor-pointer w-fit">
                 <div className="w-16 h-16 rounded-full border border-white/20 flex items-center justify-center group-hover:border-[#E63B2E] group-hover:bg-[#E63B2E]/10 transition-all">
                   <Mail className="w-6 h-6" />
                 </div>
-                <span className="text-2xl md:text-3xl font-bold tracking-tighter">info@weiss.build</span>
+                <span className="text-2xl md:text-3xl font-bold tracking-tighter">mweissconstruction@gmail.com</span>
               </a>
             </div>
 
