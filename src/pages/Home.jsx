@@ -313,25 +313,31 @@ const Home = () => {
       </section>
 
       {/* PROTOCOL SECTION */}
-      <section id="process" className="bg-[#E8E4DD]">
-        <ProtocolCard
-          num="01"
-          title="Structural Audit"
-          desc="Deep-tissue inspection of existing systems and ground conditions."
-          visual="scan"
-        />
-        <ProtocolCard
-          num="02"
-          title="Precision Drafting"
-          desc="CAD-driven blueprints with millimeter tolerance for zero-waste execution."
-          visual="rotate"
-        />
-        <ProtocolCard
-          num="03"
-          title="Material Synthesis"
-          desc="Deploying industrial-grade concrete and 24-gauge steel alloys."
-          visual="pulse"
-        />
+      <section id="process" className="bg-[#E8E4DD] relative">
+        <div className="h-screen w-full relative z-[10]">
+          <ProtocolCard
+            num="01"
+            title="Structural Audit"
+            desc="Deep-tissue inspection of existing systems and ground conditions."
+            visual="scan"
+          />
+        </div>
+        <div className="h-screen w-full relative z-[20]">
+          <ProtocolCard
+            num="02"
+            title="Precision Drafting"
+            desc="CAD-driven blueprints with millimeter tolerance for zero-waste execution."
+            visual="rotate"
+          />
+        </div>
+        <div className="h-screen w-full relative z-[30]">
+          <ProtocolCard
+            num="03"
+            title="Material Synthesis"
+            desc="Deploying industrial-grade concrete and 24-gauge steel alloys."
+            visual="pulse"
+          />
+        </div>
       </section>
 
       {/* HOW TO GET A QUOTE (QUOTE PROCESS) */}
@@ -446,7 +452,7 @@ const FeatureCard = ({ title, desc, type, media, linkTo }) => {
 
 const ProtocolCard = ({ num, title, desc, visual }) => {
   return (
-    <div className="protocol-card h-screen w-full bg-[#FFFFFF] flex items-center px-8 md:px-24 border-t-2 border-[#111111] shadow-[0_-10px_30px_rgba(0,0,0,0.05)]">
+    <div className="protocol-card h-screen w-full bg-[#FFFFFF] flex items-center px-8 md:px-24 border-t-2 border-[#111111] shadow-[0_-10px_40px_rgba(0,0,0,0.15)]">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center w-full max-w-7xl mx-auto">
         <div>
           <span className="font-mono text-[#E63B2E] text-2xl mb-6 block font-bold tracking-tighter">[{num}]</span>
