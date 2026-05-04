@@ -13,7 +13,6 @@ import {
   Calendar,
   Menu,
   X,
-  Zap,
   Mail,
   Phone,
   FileText,
@@ -393,7 +392,6 @@ const Home = () => {
       <section id="contact" className="py-40 px-6 text-center bg-[#F5F3EE]">
         <div className="max-w-4xl mx-auto rounded-[3rem] border border-[#111111]/10 bg-white p-16 md:p-24 relative overflow-hidden group shadow-2xl">
           <div className="absolute top-0 right-0 p-10">
-            <Zap className="text-[#E63B2E] animate-pulse w-8 h-8" />
           </div>
           <h2 className="text-5xl md:text-7xl font-bold uppercase mb-8 tracking-tighter">Ready to Build?</h2>
           <p className="text-xl md:text-2xl mb-14 opacity-60 font-medium">Secure your project timeline with Weiss today.</p>

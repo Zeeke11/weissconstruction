@@ -31,9 +31,8 @@ const PrivacyPolicy = () => {
       </div>
 
       {/* NAVBAR */}
-      <nav className={`fixed top-2 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 flex items-center px-6 py-3 w-[95%] md:w-[800px] rounded-full border border-[#111111]/10 ${
-        isScrolled ? "bg-[#F5F3EE]/90 backdrop-blur-xl shadow-lg" : "bg-transparent"
-      }`}>
+      <nav className={`fixed top-2 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 flex items-center px-6 py-3 w-[95%] md:w-[800px] rounded-full border border-[#111111]/10 ${isScrolled ? "bg-[#F5F3EE]/90 backdrop-blur-xl shadow-lg" : "bg-transparent"
+        }`}>
         <Link to="/" className="h-10 hover:scale-105 transition-transform flex items-center">
           <img src="/logo.webp" alt="Weiss Construction" className="h-full w-auto object-contain" />
         </Link>
@@ -53,7 +52,7 @@ const PrivacyPolicy = () => {
 
       <main className="flex-grow pt-40 pb-20 px-6 md:px-20 max-w-4xl mx-auto w-full relative z-10">
         <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tighter mb-12">Privacy Policy</h1>
-        
+
         <div className="space-y-8 text-lg opacity-80 leading-relaxed">
           <section>
             <h2 className="text-2xl font-bold uppercase tracking-tighter mb-4 text-[#E63B2E]">1. Introduction</h2>
@@ -89,7 +88,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-bold uppercase tracking-tighter mb-4 text-[#E63B2E]">5. Third-Party Disclosure</h2>
             <p>We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential.</p>
           </section>
-          
+
           <section>
             <h2 className="text-2xl font-bold uppercase tracking-tighter mb-4 text-[#E63B2E]">6. Consent</h2>
             <p>By using our site, you consent to our privacy policy.</p>

@@ -9,8 +9,7 @@ import {
   Award, 
   Users, 
   MapPin,
-  Flame,
-  Zap
+  Flame
 } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -223,7 +222,7 @@ const About = () => {
         
         <div className="fade-up mb-20 text-center relative z-10">
           <h2 className="text-[#E8E4DD] text-5xl md:text-7xl font-bold uppercase tracking-tighter flex items-center justify-center gap-6">
-            <Zap className="text-[#E63B2E] w-12 h-12" /> Service Pillars
+            Service Pillars
           </h2>
         </div>
 
