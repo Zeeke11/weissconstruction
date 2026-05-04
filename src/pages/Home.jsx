@@ -165,7 +165,7 @@ const Home = () => {
           </h2>
           <h1 className="hero-text leading-[0.85] tracking-tighter mb-8 text-[#111111]">
             <span className="block text-5xl md:text-8xl font-bold uppercase">Engineer the</span>
-            <span className="block text-7xl md:text-[10rem] font-serif italic text-[#E63B2E] font-['DM_Serif_Display']">Standard.</span>
+            <span className="block text-7xl md:text-[10rem] font-serif italic text-[#E63B2E] font-['DM_Serif_Display']">Absolute.</span>
           </h1>
           <p className="hero-text text-lg md:text-2xl max-w-xl mb-8 font-medium opacity-80 leading-relaxed">
             Forging structural integrity through raw precision. From ground-up builds to industrial-grade roofing.
